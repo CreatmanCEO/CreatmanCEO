@@ -82,7 +82,7 @@
 
 ## Контакт
 
-[![Website](https://img.shields.io/badge/creatman.pro-000?style=flat-square&logo=google-chrome&logoColor=white)](https://creatman.pro)
+[![Website](https://img.shields.io/badge/creatman.pro-000?style=flat-square&logo=google-chrome&logoColor=white)](https://t.me/Creatman_it)
 
 ---
 
