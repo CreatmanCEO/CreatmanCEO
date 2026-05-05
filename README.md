@@ -65,15 +65,15 @@ Featured in the [Graphify v5.0 roadmap](https://github.com/safishamsi/graphify/i
 
 ## 💼 Commercial / commercial-intent
 
-### [AviaWallet](https://apps.apple.com/app/aviawallet/id6754718339) — Cross-platform crypto wallet
-**Flutter · FlutterFlow · Blockchain · App Store**
+### [AviaWallet](https://github.com/CreatmanCEO/AviaWallet-showcase) — Cross-platform crypto wallet
+**Flutter · FlutterFlow · Trust Wallet Core · Firebase · App Store**
 
-[Shipped to App Store](https://apps.apple.com/app/aviawallet/id6754718339). Led the project from 0 to first release; current team maintains a UI redesign on the same architecture. Public showcase repo coming soon.
+[Shipped to App Store](https://apps.apple.com/app/aviawallet/id6754718339). Led the project from 0 to first release; current team maintains a UI redesign on the same architecture. Showcase: [`AviaWallet-showcase`](https://github.com/CreatmanCEO/AviaWallet-showcase) — architecture decisions, App Store screenshots, my role and timeline.
 
-### Sakhalin-Market — Cross-platform marketplace + admin
-**Flutter · Flutter (admin) · in production since 2024**
+### [Sakhalin-Market](https://github.com/CreatmanCEO/sakhalin-market-showcase) — Cross-platform marketplace + admin
+**Flutter · Flutter (admin) · Firebase · in production since 2024**
 
-Designed solo from 0 to production with one in-house helper. Cross-platform marketplace client + Flutter admin panel, including catalogue, orders, payments, and merchant tooling. Repos: [`ffSakhalin-MarketClient`](https://github.com/CreatmanCEO/ffSakhalin-MarketClient) · [`ffSakhMrktAdm`](https://github.com/CreatmanCEO/ffSakhMrktAdm).
+Designed solo from 0 to production with one in-house helper. Cross-platform marketplace client + Flutter admin panel, including catalogue, orders, payments, and merchant tooling. Showcase: [`sakhalin-market-showcase`](https://github.com/CreatmanCEO/sakhalin-market-showcase) — architecture, customer + admin screenshots. Source repos (archived after handoff): [`ffSakhalin-MarketClient`](https://github.com/CreatmanCEO/ffSakhalin-MarketClient) · [`ffSakhMrktAdm`](https://github.com/CreatmanCEO/ffSakhMrktAdm).
 
 ### 🔨 [ghost-showcase](https://github.com/CreatmanCEO/ghost-showcase) — Invisible AI assistant for Windows · *open to investment / acquisition*
 **Electron · React · TypeScript · Python · Win32 · WebSocket JSON-RPC**
