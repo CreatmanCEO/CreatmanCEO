@@ -123,9 +123,20 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 
 ---
 
-## 📊 GitHub stats
+## 🛠 Tech I work in
 
-[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CreatmanCEO&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=ffSakhalin-MarketClient,ffSakhMrktAdm)](https://github.com/CreatmanCEO)
+[![My Skills](https://skillicons.dev/icons?i=python,typescript,nextjs,react,fastapi,electron,flutter,nodejs,postgres,redis,docker,linux,bash,vscode,git,github,vercel,cloudflare&theme=dark)](https://skillicons.dev)
+
+**Backend:** Python 3.11+ · FastAPI · WebSocket · Celery · LiteLLM · aiosqlite · pgvector
+**Frontend:** Next.js · React 19 · TypeScript · Tailwind · shadcn/ui · Zustand
+**Mobile:** Flutter (App Store-shipped) · React Native
+**Desktop:** Electron + Win32 native (`koffi`)
+**AI / ML:** Claude · Gemini · Groq · DeepSeek · Ollama · Deepgram · faster-whisper · ElevenLabs · ChromaDB · Silero VAD
+**DevOps:** Docker · systemd · nginx · WireGuard · GitHub Actions · Coolify · 4 production VPS
+
+[![Followers](https://img.shields.io/github/followers/CreatmanCEO?style=flat&label=followers&color=blue)](https://github.com/CreatmanCEO)
+[![Stars](https://img.shields.io/github/stars/CreatmanCEO?style=flat&label=stars&affiliations=OWNER&color=yellow)](https://github.com/CreatmanCEO?tab=stars)
+[![Public repos](https://img.shields.io/badge/public%20repos-32-22c55e)](https://github.com/CreatmanCEO?tab=repositories)
 
 ---
 
