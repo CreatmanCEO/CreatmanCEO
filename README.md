@@ -1,308 +1,196 @@
-# Hi, I'm CREATMAN 👋
+<div align="right">
 
-**Full-Stack Developer | Automation Engineer | AI Integration Specialist**
+🇬🇧 English · <a href="#-на-русском">🇷🇺 На русском</a>
 
-> Building intelligent tools that solve real problems and ship to production. From concept to deployment.
+</div>
 
-[![Website](https://img.shields.io/badge/creatman.site-000?style=flat-square&logo=google-chrome&logoColor=white)](https://creatman.site)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Creatman_it)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/creatman)
+# Hi, I'm Nick.
 
----
-
-## 🚀 Featured Projects
-
-### 1. [GHOST](https://github.com/CreatmanCEO/ghost-showcase) — AI Assistant with Invisible Overlay
-*Creator & Lead Developer | 2026*
-
-[![Commercial](https://img.shields.io/badge/Product-Commercial-blue?style=flat-square)](https://github.com/CreatmanCEO/ghost-showcase)
-
-Real-time AI assistant with **invisible overlay technology** for interviews, meetings, and coding sessions. Features multi-provider LLM support (Claude, GPT, Ollama), real-time STT, and 5 specialized modes.
-
-**Tech Stack:** `TypeScript` `React` `Electron` `Python` `FastAPI` `Claude` `Deepgram` `WebSocket`
-
-**Innovation:** Windows WDA_EXCLUDEFROMCAPTURE — completely invisible to screen recordings
+> **Field geologist since 2007. Software engineer since 2020.**
+>
+> *Same craft, different terrain. Mapping the unseen on the ground; building what's missing on screen.*
 
 ---
 
-### 2. [ACCU](https://github.com/CreatmanCEO/accu) — AI-Curated Code Universe
-*Creator | 2026*
-
-Ecosystem for reviving undervalued open-source projects through human-AI collaboration. Features **Claude Code agents on VPS** for automated project analysis and curation.
-
-**Tech Stack:** `Python` `AI/LLM` `Claude Code` `VPS Infrastructure` `Open Source`
-
-**Highlight:** Production AI infrastructure running autonomous agents
+[![Habr · top-5 of the day · 20K reads](https://img.shields.io/badge/Habr-top--5%20of%20the%20day%20%C2%B7%2020K%20reads-77a2b6)](https://habr.com/ru/articles/1013330/)
+[![Featured in Graphify v5.0 roadmap](https://img.shields.io/badge/Graphify-v5.0%20roadmap-9d6cff)](https://github.com/safishamsi/graphify/issues/425)
+[![Shipped to App Store](https://img.shields.io/badge/App%20Store-AviaWallet-000?logo=apple)](https://apps.apple.com/app/aviawallet/id6754718339)
+[![dev.to](https://img.shields.io/badge/dev.to-cross--published-0a0a0a?logo=devdotto)](https://dev.to/creatman)
+[![Public repos · stars](https://img.shields.io/badge/repos-32%20public%20%C2%B7%20%E2%AD%90%2056%2B-yellow)](https://github.com/CreatmanCEO?tab=repositories)
 
 ---
 
-### 3. [club-sbor.ru](https://club-sbor.ru) — Football Club Management Platform
-*Lead Designer & Architect | 2024-2026*
-
-Web platform for football clubs with automatic team balancing algorithms, rating system, and multi-tenant architecture. Managing 1 developer.
-
-**Tech Stack:** `Bubble.io` `Complex Algorithms` `Multi-tenant Architecture` `Web Design`
-
-**Highlight:** Auto-balancing algorithm for fair team composition
+I build tools I needed first, then ship to others — `diabot` for a sibling with type 1 diabetes, `security-scanner` after a friend's compromised phone, `claude-code-antiregression-setup` because my own refactors kept breaking. Engineering as craft, not as content — I don't buy attention. I build things substantial enough that the right people find them on their own.
 
 ---
 
-### 4. [Cian Parser](https://github.com/CreatmanCEO/cian-parser-showcase) — Real Estate Automation
-*Creator | 2024*
+## 🌍 Open-source
 
-[![Commercial](https://img.shields.io/badge/Product-Commercial-blue?style=flat-square)](https://github.com/CreatmanCEO/cian-parser-showcase)
+### [hydrowatch](https://github.com/CreatmanCEO/hydrowatch) — Theis-equation-based groundwater monitoring with an LLM agent
+**Python · FastAPI · Next.js · LiteLLM · MapLibre · scipy · scikit-image · 154 tests**
 
-Production web scraping tool for Russian real estate market. Multi-threaded scraping, anti-detection, advanced filtering, and real-time Telegram notifications.
+Real hydrogeology, not a dashboard with cosmetic icons. Interference lines computed from the Theis equation, depression cones via marching-squares contour extraction, an agent loop calling 7 MCP-style tools to answer professional questions with structured output cards. The gold-standard README that anchors the rest of the portfolio.
 
-**Tech Stack:** `Python` `aiohttp` `BeautifulSoup` `APScheduler` `Telegram Bot` `Web Scraping`
+### [claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup) — Stop Claude Code from breaking your projects ⭐11
+**Python · Bash · Claude Code · MCP · Subagents · Hooks**
 
-**Highlight:** Client project in active production use
+Featured on [Habr top-5 of the day · 20K reads · Технотекст 8 entry](https://habr.com/ru/articles/1013330/). The four-layer setup that survives Claude's 1M context window — `CLAUDE.md` + isolated subagents + commit-blocking hooks + glob-scoped rules.
 
----
+### [webtest-orch](https://github.com/CreatmanCEO/webtest-orch) — Token-efficient e2e orchestration for Claude Code
+**Python · TypeScript · Playwright · axe-core · npm**
 
-### 5. [AviaWallet](https://apps.apple.com/ru/app/aviawallet/id6754718339) — Crypto Wallet Ecosystem
-*Lead Developer | 2024-2025*
+Explore once with Playwright MCP (ARIA snapshots, not images), replay deterministically with `npx playwright test`. Bug fingerprinting + run-diff. CI matrix Linux/macOS/Windows. 113 tests. Public beta.
 
-[![App Store](https://img.shields.io/badge/App_Store-Available-black?style=flat-square&logo=apple)](https://apps.apple.com/ru/app/aviawallet/id6754718339)
+### [claude-statusline](https://github.com/CreatmanCEO/claude-statusline) — Smart status line for Claude Code with VPS monitoring ⭐5
+**Bash · jq · cache-decoupling design**
 
-Cross-platform cryptocurrency wallet with native token and complete ecosystem. Successfully **shipped to App Store**.
+Featured on [Habr · 9.3K reads](https://habr.com/ru/articles/1013414/). Pure bash + `jq`, no Node.js. Auto-focuses the VPS you're working with by parsing the Claude Code transcript.
 
-**Tech Stack:** `Flutter` `FlutterFlow` `Blockchain` `Mobile Development` `App Store`
+### [ai-context-hierarchy](https://github.com/CreatmanCEO/ai-context-hierarchy) — Three-level context system for AI coding agents ⭐3
+**Python · Claude Code · Cursor · Codex · Gemini CLI**
 
-**Highlight:** Full product ownership from concept to production
+Featured in the [Graphify v5.0 roadmap](https://github.com/safishamsi/graphify/issues/425) — external validation by the Graphify maintainer. Stops re-explaining your codebase every session.
 
----
+### [notebooklm-claude-workflows](https://github.com/CreatmanCEO/notebooklm-claude-workflows) — Seven slash-commands for NotebookLM ⭐3
+**Python · Bash · MCP · NotebookLM**
 
-### 6. [smart-link-collector](https://github.com/CreatmanCEO/smart-link-collector) — AI Link Organizer
-*Creator | 2026*
+41K-message Telegram production test (12 topics, 586K words, 13 NotebookLM sources, under 2 minutes). Turns multi-step NotebookLM operations into one-liners.
 
-AI-powered Telegram & WhatsApp bot that analyzes product links and automatically organizes them in Google Sheets.
+### 🔨 [cc-janitor](https://github.com/CreatmanCEO/cc-janitor) — Tidy up your Claude Code environment
+**Python · Textual TUI · Typer · tiktoken · MIT**
 
-**Tech Stack:** `Node.js` `Telegram Bot API` `WhatsApp API` `Google Sheets API` `AI/NLP`
-
----
-
-### 7. [hebrew-doc-translator](https://github.com/CreatmanCEO/hebrew_doc_translator) — Document Translator
-*Creator | 2025*
-
-Hebrew↔Russian/English document translator with formatting preservation and web interface.
-
-**Tech Stack:** `Python` `NLP` `FastAPI` `Web Application`
+*Phase 1 MVP — in active development.* Sessions, permissions, context, hooks. The chores no one else automates, in one tool.
 
 ---
 
-## 🛠 Tech Stack
+## 💼 Commercial / commercial-intent
 
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+### [AviaWallet](https://apps.apple.com/app/aviawallet/id6754718339) — Cross-platform crypto wallet
+**Flutter · FlutterFlow · Blockchain · App Store**
 
-### Backend & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+[Shipped to App Store](https://apps.apple.com/app/aviawallet/id6754718339). Led the project from 0 to first release; current team maintains a UI redesign on the same architecture. Public showcase repo coming soon.
 
-### AI & Automation
-![Claude](https://img.shields.io/badge/Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Telegram Bots](https://img.shields.io/badge/Telegram_Bots-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+### Sakhalin-Market — Cross-platform marketplace + admin
+**Flutter · Flutter (admin) · in production since 2024**
 
-**AI Expertise:**
-- **Claude Code** — Autonomous agents on VPS (ACCU project)
-- **Claude API** — Production LLM integration (GHOST)
-- **GPT API** — Alternative LLM provider
-- **Deepgram** — Real-time speech-to-text
-- **RAG Systems** — Document retrieval with embeddings
+Designed solo from 0 to production with one in-house helper. Cross-platform marketplace client + Flutter admin panel, including catalogue, orders, payments, and merchant tooling. Repos: [`ffSakhalin-MarketClient`](https://github.com/CreatmanCEO/ffSakhalin-MarketClient) · [`ffSakhMrktAdm`](https://github.com/CreatmanCEO/ffSakhMrktAdm).
 
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+### 🔨 [ghost-showcase](https://github.com/CreatmanCEO/ghost-showcase) — Invisible AI assistant for Windows · *open to investment / acquisition*
+**Electron · React · TypeScript · Python · Win32 · WebSocket JSON-RPC**
 
-**DevOps Skills:**
-- **VPS Management** — Server setup, Nginx, SSL certificates, firewall
-- **VPN Deployment** — WireGuard, OpenVPN configuration
-- **CI/CD** — GitHub Actions workflows
-- **Cloud** — GCP (Cloud Functions, Cloud Tasks)
-- **AI Infrastructure** — Claude Code agents on production VPS
+Phase 1 in active development. Real-time AI assistance that stays invisible during screen recordings via `WDA_EXCLUDEFROMCAPTURE`. Multi-provider LLM (Claude, GPT, Ollama, LM Studio) + STT (Deepgram, faster-whisper) + RAG (ChromaDB) + Silero VAD. The README is structured as a fundraising / exit-prep document.
+
+### 🔨 [lingua-companion](https://github.com/CreatmanCEO/lingua-companion) — Voice-first English tutor for Russian-speaking IT professionals · *open to partnership*
+**Next.js 16 · React 19 · FastAPI · Deepgram · Groq · ElevenLabs · 91 backend tests**
+
+Private beta. Native Russian/English code-switching support, conversational memory, three companion personalities (Alex / Sam / Morgan), four voice variants, scenario practice (Daily Stand-up, Code Review, Tech Demo, Job Interview, Sprint Planning). Demo by request.
+
+### [security-scanner](https://github.com/CreatmanCEO/security-scanner) — Mobile threat detection through VPN traffic analysis
+**Python · Suricata · Zeek · JA3 · Threat Intel APIs · Telegram**
+
+[`@secure_scanbot`](https://t.me/secure_scanbot) live 24/7. Detects RATs, stalkerware, crypto miners, backdoors. Phase 2: open-sourcing the full self-hosted Docker stack.
+
+### [club-sbor.ru](https://club-sbor.ru) — Football club management platform
+**Bubble.io · multi-tenant architecture · auto-balancing algorithms · in production since 2024**
+
+Web platform with auto-balancing teams algorithm and rating system. *The project that pushed me from no-code to real code/frameworks.*
+
+**More commercial work:** [`hebrew_doc_translator`](https://github.com/CreatmanCEO/hebrew_doc_translator) · [`joy-vision-calculator`](https://github.com/CreatmanCEO/joy-vision-calculator) (Bitrix24 CRM) · [`cian-parser-showcase`](https://github.com/CreatmanCEO/cian-parser-showcase) · [`rentscout`](https://github.com/CreatmanCEO/rentscout) · `vpn-commercial-bot` *(private)*
 
 ---
 
-## 💼 More Projects
+## ❤️ Personal · non-commercial
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**joy-vision-calculator**](https://github.com/CreatmanCEO/joy-vision-calculator) | Frameless glazing calculator with Bitrix24 CRM integration | `Vanilla JS` `Bitrix24 API` `Web App` |
-| [**telegram-bot-n8n-assistant**](https://github.com/CreatmanCEO/telegram-bot-n8n-assistant) | Intelligent Telegram bot with LLM integration on n8n | `n8n` `LLM` `Automation` |
-| [**notion-transfer-bot**](https://github.com/CreatmanCEO/notion-transfer-bot) | Telegram bot for Notion synchronization | `Node.js` `Notion API` |
-| [**telegram-form-worker**](https://github.com/CreatmanCEO/telegram-form-worker) | Cloudflare Worker for form → Telegram forwarding | `Cloudflare Workers` `Serverless` |
-| [**crypto-wallet-mvp**](https://github.com/CreatmanCEO/crypto-wallet-mvp) | Cross-platform cryptocurrency wallet MVP | `React Native` `Blockchain` |
+### [diabot](https://github.com/CreatmanCEO/diabot) — Type 1 diabetes nutrition bot
+**Python · python-telegram-bot · LiteLLM (Gemini Vision) · aiosqlite · PolyForm Noncommercial**
 
----
+For friends and family. Food photo → AI carb counting → bread units → diary. *I solve mine, then ship to others.*
 
-## 🎯 What I Do
-
-```yaml
-Code:
-  - Full-stack web applications (Python/FastAPI, Node.js, React)
-  - Mobile apps (Flutter, React Native → App Store)
-  - Desktop apps (Electron, TypeScript)
-  - AI-powered tools and integrations
-
-Automate:
-  - Workflow automation with n8n
-  - 15+ production Telegram bots
-  - API integrations (Notion, Sheets, Bitrix24, WhatsApp)
-  - Web scraping and data processing
-
-DevOps:
-  - VPS setup and management
-  - CI/CD pipelines (GitHub Actions)
-  - Docker containerization
-  - SSL, Nginx, reverse proxies
-  - VPN deployment (WireGuard, OpenVPN)
-
-AI/ML:
-  - Claude Code agents on VPS
-  - LLM integration (Claude, GPT, Ollama)
-  - Real-time STT (Deepgram, Whisper)
-  - RAG systems with vector databases
-```
+**Other personal projects:** [`portfolio`](https://github.com/CreatmanCEO/portfolio) (creatman.site) · [`smart-link-collector`](https://github.com/CreatmanCEO/smart-link-collector) · `work-assistant` *(private)* · `vpn-key-bot` *(private)*
 
 ---
 
-## 📊 GitHub Stats
+## 📚 More projects
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CreatmanCEO&layout=compact&theme=dark)
-
----
-
-## 🌱 Journey
-
-```
-2023  ░░░░░░░░░░  Started with Flutter
-2024  ████░░░░░░  Sakhalin-Market delivered to client
-      ████████░░  15+ Telegram bots, n8n workflows, VPS expertise
-2025  ██████████  AviaWallet → App Store
-      ██████████  AI integrations, ACCU project, DevOps skills
-2026  ████████░░  GHOST development, AI agents on VPS, expanding capabilities
-```
+| Project | Note |
+|---|---|
+| [`accu`](https://github.com/CreatmanCEO/accu) | AI-Curated Code Universe — ecosystem for reviving undervalued open-source projects |
+| [`datn`](https://github.com/CreatmanCEO/datn) | Distributed AI Trading Network — multi-agent platform |
+| [`notion-knowledge-assistant`](https://github.com/CreatmanCEO/notion-knowledge-assistant) | AI-powered Notion knowledge-base bot |
+| [`CreatmanCEO.github.io`](https://github.com/CreatmanCEO/CreatmanCEO.github.io) | Personal landing page |
+| [`telegram-form-worker`](https://github.com/CreatmanCEO/telegram-form-worker) | Cloudflare Worker · form → Telegram |
+| `CREATMAN-Life-Hub` *(private)* | Personal life-management dashboard |
 
 ---
 
-## 📫 Contact
+## 📊 GitHub stats
 
-- **Website:** [creatman.site](https://creatman.site)
-- **Email:** creatmanick@gmail.com
-- **Telegram:** [@Creatman_it](https://t.me/Creatman_it)
-- **LinkedIn:** [linkedin.com/in/creatman](https://linkedin.com/in/creatman)
-- **Location:** 🌍 Remote / Worldwide (except CIS)
+[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CreatmanCEO&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=ffSakhalin-MarketClient,ffSakhMrktAdm)](https://github.com/CreatmanCEO)
+
+---
+
+## 📫 Let's talk
 
 **Open to:**
-- Full-Stack Developer roles
-- Automation Engineer positions
-- AI Integration projects
-- Remote opportunities worldwide
+- 🌍 **Senior engineering / staff-level roles** — remote, open to relocation outside Russia
+- 🤝 **Architectural / technical-lead partnerships** — for select product ventures
+- 💬 **Investment / acquisition discussions** — for [GHOST](https://github.com/CreatmanCEO/ghost-showcase) and [lingua-companion](https://github.com/CreatmanCEO/lingua-companion) in particular
+
+**Reach me:**
+[![Email](https://img.shields.io/badge/Email-creatmanick%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:creatmanick@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-%40Creatman__it-2CA5E0?logo=telegram&logoColor=white)](https://t.me/Creatman_it)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-creatman-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/creatman)
+[![Website](https://img.shields.io/badge/creatman.site-000?logo=google-chrome&logoColor=white)](https://creatman.site)
+[![Habr](https://img.shields.io/badge/Habr-creatman-77a2b6)](https://habr.com/ru/users/creatman/)
+[![dev.to](https://img.shields.io/badge/dev.to-%40creatman-0a0a0a?logo=devdotto)](https://dev.to/creatman)
 
 ---
 
 <details>
-<summary><b>🇷🇺 На русском</b></summary>
+<summary id="-на-русском"><b>🇷🇺 На русском</b></summary>
 
-# Привет, я CREATMAN 👋
+## Привет, я Ник.
 
-**Full-Stack разработчик | Инженер по автоматизации | AI Integration специалист**
+> **Полевой геолог с 2007 года. Software engineer с 2020.**
+>
+> *Одно ремесло на разном рельефе. Двадцать лет картографирую невидимое в земле; пять — собираю недостающее на экране.*
 
-> Создаю умные инструменты, которые решают реальные проблемы и доходят до продакшена. От идеи до деплоя.
+Я строю инструменты, которые сначала нужны были мне самому, потом передаю людям — `diabot` для родного человека с диабетом 1 типа, `security-scanner` после реального случая со взломанным телефоном друга, `claude-code-antiregression-setup` потому что мои собственные рефакторинги ломали рабочий код. Инжиниринг как ремесло, не как контент — я не покупаю внимание. Я делаю вещи достаточно содержательные, чтобы нужные люди находили их сами.
 
-## 🚀 Избранные проекты
+### 🌍 Open-source
 
-### 1. [GHOST](https://github.com/CreatmanCEO/ghost-showcase) — AI-ассистент с невидимым оверлеем
+- **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста
+- **[claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup)** ⭐11 — [Habr топ-5 дня · 20K чтений](https://habr.com/ru/articles/1013330/)
+- **[webtest-orch](https://github.com/CreatmanCEO/webtest-orch)** — token-efficient e2e orchestration · CI matrix · 113 тестов
+- **[claude-statusline](https://github.com/CreatmanCEO/claude-statusline)** ⭐5 — [Habr · 9.3K чтений](https://habr.com/ru/articles/1013414/)
+- **[ai-context-hierarchy](https://github.com/CreatmanCEO/ai-context-hierarchy)** ⭐3 — [в roadmap Graphify v5.0](https://github.com/safishamsi/graphify/issues/425)
+- **[notebooklm-claude-workflows](https://github.com/CreatmanCEO/notebooklm-claude-workflows)** ⭐3 — 7 slash-команд · продакшн-тест на 41K сообщений Telegram
+- **🔨 [cc-janitor](https://github.com/CreatmanCEO/cc-janitor)** — TUI/CLI для гигиены среды Claude Code · Phase 1 MVP в активной разработке
 
-AI-помощник в реальном времени с технологией **невидимого оверлея** для собеседований, встреч и программирования.
+### 💼 Commercial
 
-**Технологии:** TypeScript, React, Electron, Python, FastAPI, Claude, Deepgram
+- **[AviaWallet](https://apps.apple.com/app/aviawallet/id6754718339)** — кросс-платформенный крипто-кошелёк · Flutter · в App Store · вёл проект с 0 до первого релиза
+- **Sakhalin-Market** — кросс-платформенный маркетплейс + админка · спроектировал соло с 0 до продакшена с одним помощником в штате · в продакшене с 2024
+- **🔨 [ghost-showcase](https://github.com/CreatmanCEO/ghost-showcase)** — невидимый AI-ассистент для Windows · Phase 1 · *открыт к инвестициям / acquisition*
+- **🔨 [lingua-companion](https://github.com/CreatmanCEO/lingua-companion)** — voice-first English-tutor · приватная бета · *открыт к партнёрству*
+- **[security-scanner](https://github.com/CreatmanCEO/security-scanner)** — детектор мобильных угроз через анализ VPN-трафика · `@secure_scanbot` LIVE · Phase 2 — open-sourcing
+- **[club-sbor.ru](https://club-sbor.ru)** — платформа для футбольных клубов · в продакшене с 2024 · *проект, который вытолкнул меня из конструкторов в код*
 
-**Инновация:** Полностью невидим для записи экрана
+**Ещё:** `hebrew_doc_translator` · `joy-vision-calculator` · `cian-parser-showcase` · `rentscout` · `vpn-commercial-bot` *(private)*
 
----
+### ❤️ Personal · non-commercial
 
-### 2. [ACCU](https://github.com/CreatmanCEO/accu) — AI-Curated Code Universe
+- **[diabot](https://github.com/CreatmanCEO/diabot)** — для близких с диабетом 1 типа · PolyForm Noncommercial · *своё решаю, потом отдаю*
+- **Ещё:** `portfolio` (creatman.site) · `smart-link-collector` · `work-assistant` *(private)* · `vpn-key-bot` *(private)*
 
-Экосистема для возрождения недооценённых open-source проектов через коллаборацию человека и AI. **Claude Code агенты на VPS**.
+### 📫 Открыт к
 
----
-
-### 3. [club-sbor.ru](https://club-sbor.ru) — Платформа для футбольных клубов
-
-Веб-платформа с алгоритмами автоматического баланса команд, рейтинговой системой, multi-tenant архитектурой.
-
-**Технологии:** Bubble.io, Алгоритмы, Web Design
-
----
-
-### 4. [Cian Parser](https://github.com/CreatmanCEO/cian-parser-showcase) — Автоматизация недвижимости
-
-Production инструмент для парсинга недвижимости. Многопоточный скрейпинг, защита от обнаружения, Telegram уведомления.
-
-**Технологии:** Python, aiohttp, BeautifulSoup, Telegram Bot
-
----
-
-### 5. [AviaWallet](https://apps.apple.com/ru/app/aviawallet/id6754718339) — Крипто-кошелёк
-
-Кроссплатформенный криптовалютный кошелёк с нативным токеном. **Выпущен в App Store**.
-
-**Технологии:** Flutter, FlutterFlow, Blockchain
-
----
-
-### 6. [smart-link-collector](https://github.com/CreatmanCEO/smart-link-collector) — AI-бот организатор ссылок
-
-Telegram & WhatsApp бот с AI для анализа товарных ссылок и автоматической организации в Google Sheets.
-
----
-
-### 7. [hebrew-doc-translator](https://github.com/CreatmanCEO/hebrew_doc_translator) — Переводчик документов
-
-Переводчик иврит↔русский/английский с сохранением форматирования.
-
----
-
-## 🛠 Технологии
-
-**Языки:** Python, JavaScript/TypeScript, Dart  
-**Backend:** FastAPI, Node.js, Express  
-**Mobile:** Flutter, React Native (App Store)  
-**Desktop:** Electron  
-**Automation:** n8n, Telegram Bots, API интеграции  
-**AI/ML:** Claude Code, Claude API, GPT, Deepgram, RAG  
-**DevOps:** VPS, Docker, Nginx, CI/CD, VPN (WireGuard/OpenVPN)
-
-## 🎯 Чем занимаюсь
-
-- Full-stack веб-приложения
-- Мобильные приложения (Flutter, React Native)
-- Desktop приложения (Electron)
-- AI-инструменты и интеграции
-- Автоматизация через n8n
-- 15+ production Telegram ботов
-- DevOps: VPS, CI/CD, Docker
-- От MVP до App Store
-
-## 📫 Контакты
-
-- **Сайт:** creatman.site
-- **Email:** creatmanick@gmail.com
-- **Telegram:** @Creatman_it
-- **LinkedIn:** linkedin.com/in/creatman
-- **Локация:** Remote / Worldwide (кроме СНГ)
+- 🌍 **Senior engineering / staff-level позициям** — remote, готов к релокации за пределы РФ
+- 🤝 **Архитектурным / techlead-партнёрствам** — для отдельных продуктовых проектов
+- 💬 **Инвестициям / acquisition** — для GHOST и lingua-companion в первую очередь
 
 </details>
 
 ---
 
-<sub>*Building with precision. Shipping with confidence.*</sub>
+<sub>*Build, ship, share.*</sub>
