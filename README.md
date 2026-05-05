@@ -91,7 +91,7 @@ Private beta. Native Russian/English code-switching support, conversational memo
 [`@secure_scanbot`](https://t.me/secure_scanbot) live 24/7. Detects RATs, stalkerware, crypto miners, backdoors. Phase 2: open-sourcing the full self-hosted Docker stack.
 
 ### [club-sbor.ru](https://club-sbor.ru) — Football club management platform
-**Bubble.io · multi-tenant architecture · auto-balancing algorithms · in production since 2024**
+**Bubble.io · multi-tenant architecture · auto-balancing algorithms · in production since 2023**
 
 Web platform with auto-balancing teams algorithm and rating system. *The project that pushed me from no-code to real code/frameworks.*
 
@@ -174,7 +174,7 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 - **🔨 [ghost-showcase](https://github.com/CreatmanCEO/ghost-showcase)** — невидимый AI-ассистент для Windows · Phase 1 · *открыт к инвестициям / acquisition*
 - **🔨 [lingua-companion](https://github.com/CreatmanCEO/lingua-companion)** — voice-first English-tutor · приватная бета · *открыт к партнёрству*
 - **[security-scanner](https://github.com/CreatmanCEO/security-scanner)** — детектор мобильных угроз через анализ VPN-трафика · `@secure_scanbot` LIVE · Phase 2 — open-sourcing
-- **[club-sbor.ru](https://club-sbor.ru)** — платформа для футбольных клубов · в продакшене с 2024 · *проект, который вытолкнул меня из конструкторов в код*
+- **[club-sbor.ru](https://club-sbor.ru)** — платформа для футбольных клубов · в продакшене с 2023 · *проект, который вытолкнул меня из конструкторов в код*
 
 **Ещё:** `hebrew_doc_translator` · `joy-vision-calculator` · `cian-parser-showcase` · `rentscout` · `vpn-commercial-bot` *(private)*
 
