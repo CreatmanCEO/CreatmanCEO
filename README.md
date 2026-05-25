@@ -7,6 +7,7 @@
 # Hi, I'm Nick.
 
 > **Field geologist since 2007. Software engineer since 2020.**
+> **Building AI-native developer tools and agent infrastructure — MNEMO (memory), Rotator (orchestration), and a growing ecosystem of Claude Code skills.**
 >
 > *Same craft, different terrain. Mapping the unseen on the ground; building what's missing on screen.*
 
@@ -16,7 +17,8 @@
 [![Featured in Graphify v5.0 roadmap](https://img.shields.io/badge/Graphify-v5.0%20roadmap-9d6cff)](https://github.com/safishamsi/graphify/issues/425)
 [![Shipped to App Store](https://img.shields.io/badge/App%20Store-AviaWallet-000?logo=apple)](https://apps.apple.com/app/aviawallet/id6754718339)
 [![dev.to](https://img.shields.io/badge/dev.to-cross--published-0a0a0a?logo=devdotto)](https://dev.to/creatman)
-[![Public repos · stars](https://img.shields.io/badge/repos-32%20public%20%C2%B7%20%E2%AD%90%2056%2B-yellow)](https://github.com/CreatmanCEO?tab=repositories)
+[![Public repos · stars](https://img.shields.io/badge/repos-37%20public%20%C2%B7%20%E2%AD%90%2056%2B-yellow)](https://github.com/CreatmanCEO?tab=repositories)
+![Profile views](https://komarev.com/ghpvc/?username=CreatmanCEO&color=blue&style=flat)
 
 ---
 
@@ -30,6 +32,16 @@ I build tools I needed first, then ship to others — `diabot` for a sibling wit
 **Python · FastAPI · Next.js · LiteLLM · MapLibre · scipy · scikit-image · 154 tests**
 
 Real hydrogeology, not a dashboard with cosmetic icons. Interference lines computed from the Theis equation, depression cones via marching-squares contour extraction, an agent loop calling 7 MCP-style tools to answer professional questions with structured output cards. The gold-standard README that anchors the rest of the portfolio.
+
+### [mnemo-showcase](https://github.com/CreatmanCEO/mnemo-showcase) — Personal event graph with semantic recall for AI agents
+**Python · FastAPI · pgvector · bge-m3 · MCP · 135 tests**
+
+14K events from 6 sources, semantic recall in <500ms. 5 sprints in 12 days on a 4GB VPS. The memory layer that makes AI agents remember between sessions.
+
+### [rotator-showcase](https://github.com/CreatmanCEO/rotator-showcase) — Single-tenant voice co-pilot + MCP peripheral for Claude Code
+**Python · FastMCP · voice pipeline · skill system**
+
+Agent runtime with bounded loops, citation-grounded recall, eval-driven skill learning. The brain that orchestrates memory, voice, and tools.
 
 ### [claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup) — Stop Claude Code from breaking your projects ⭐11
 **Python · Bash · Claude Code · MCP · Subagents · Hooks**
@@ -123,6 +135,12 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 
 ---
 
+## 🔬 Deep dives
+
+Detailed case studies with architecture diagrams, design decisions, and impact metrics — coming soon in `case-studies/`.
+
+---
+
 ## 🛠 Tech I work in
 
 [![My Skills](https://skillicons.dev/icons?i=python,typescript,nextjs,react,fastapi,electron,flutter,nodejs,postgres,redis,docker,linux,bash,vscode,git,github,vercel,cloudflare&theme=dark)](https://skillicons.dev)
@@ -131,12 +149,14 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 **Frontend:** Next.js · React 19 · TypeScript · Tailwind · shadcn/ui · Zustand
 **Mobile:** Flutter (App Store-shipped) · React Native
 **Desktop:** Electron + Win32 native (`koffi`)
-**AI / ML:** Claude · Gemini · Groq · DeepSeek · Ollama · Deepgram · faster-whisper · ElevenLabs · ChromaDB · Silero VAD
-**DevOps:** Docker · systemd · nginx · WireGuard · GitHub Actions · Coolify · 4 production VPS
+**AI / ML:** Claude · Gemini · Groq · DeepSeek · Ollama · Deepgram · faster-whisper · ElevenLabs · ChromaDB · Silero VAD · pgvector · bge-m3 · MCP (Model Context Protocol)
+**DevOps:** Docker · systemd · nginx · WireGuard · Tailscale · GitHub Actions · Coolify · 4 production VPS
 
 [![Followers](https://img.shields.io/github/followers/CreatmanCEO?style=flat&label=followers&color=blue)](https://github.com/CreatmanCEO)
 [![Stars](https://img.shields.io/github/stars/CreatmanCEO?style=flat&label=stars&affiliations=OWNER&color=yellow)](https://github.com/CreatmanCEO?tab=stars)
-[![Public repos](https://img.shields.io/badge/public%20repos-32-22c55e)](https://github.com/CreatmanCEO?tab=repositories)
+[![Public repos](https://img.shields.io/badge/public%20repos-37-22c55e)](https://github.com/CreatmanCEO?tab=repositories)
+
+<img src="https://github-readme-stats.vercel.app/api?username=CreatmanCEO&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
 
 ---
 
@@ -163,6 +183,7 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 ## Привет, я Ник.
 
 > **Полевой геолог с 2007 года. Software engineer с 2020.**
+> **Создаю AI-native инструменты и агентную инфраструктуру — MNEMO (память), Rotator (оркестрация) и растущую экосистему Claude Code skills.**
 >
 > *Одно ремесло на разном рельефе. Двадцать лет картографирую невидимое в земле; пять — собираю недостающее на экране.*
 
@@ -171,6 +192,8 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 ### 🌍 Open-source
 
 - **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста
+- **[mnemo-showcase](https://github.com/CreatmanCEO/mnemo-showcase)** — граф событий с семантическим поиском для AI-агентов · 14K событий · pgvector · bge-m3 · 135 тестов · 5 спринтов за 12 дней
+- **[rotator-showcase](https://github.com/CreatmanCEO/rotator-showcase)** — голосовой co-pilot + MCP-периферия для Claude Code · bounded loops · citation-grounded recall · eval-driven skill learning
 - **[claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup)** ⭐11 — [Habr топ-5 дня · 20K чтений](https://habr.com/ru/articles/1013330/)
 - **[webtest-orch](https://github.com/CreatmanCEO/webtest-orch)** — token-efficient e2e orchestration · CI matrix · 113 тестов
 - **[claude-statusline](https://github.com/CreatmanCEO/claude-statusline)** ⭐5 — [Habr · 9.3K чтений](https://habr.com/ru/articles/1013414/)
