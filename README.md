@@ -17,7 +17,7 @@
 [![Featured in Graphify v5.0 roadmap](https://img.shields.io/badge/Graphify-v5.0%20roadmap-9d6cff)](https://github.com/safishamsi/graphify/issues/425)
 [![Shipped to App Store](https://img.shields.io/badge/App%20Store-AviaWallet-000?logo=apple)](https://apps.apple.com/app/aviawallet/id6754718339)
 [![dev.to](https://img.shields.io/badge/dev.to-cross--published-0a0a0a?logo=devdotto)](https://dev.to/creatman)
-[![Public repos · stars](https://img.shields.io/badge/repos-37%20public%20%C2%B7%20%E2%AD%90%2056%2B-yellow)](https://github.com/CreatmanCEO?tab=repositories)
+[![Public repos · stars](https://img.shields.io/badge/repos-39%20public%20%C2%B7%20%E2%AD%90%2068-yellow)](https://github.com/CreatmanCEO?tab=repositories)
 ![Profile views](https://komarev.com/ghpvc/?username=CreatmanCEO&color=blue&style=flat)
 
 ---
@@ -161,7 +161,6 @@ Architecture decisions, domain expertise, and impact metrics.
 [![Stars](https://img.shields.io/github/stars/CreatmanCEO?style=flat&label=stars&affiliations=OWNER&color=yellow)](https://github.com/CreatmanCEO?tab=stars)
 [![Public repos](https://img.shields.io/badge/public%20repos-37-22c55e)](https://github.com/CreatmanCEO?tab=repositories)
 
-<img src="https://github-readme-stats.vercel.app/api?username=CreatmanCEO&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
 
 ---
 
