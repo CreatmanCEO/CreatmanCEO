@@ -28,11 +28,6 @@ I build tools I needed first, then ship to others — `diabot` for a sibling wit
 
 ## 🌍 Open-source
 
-### [hydrowatch](https://github.com/CreatmanCEO/hydrowatch) — Theis-equation-based groundwater monitoring with an LLM agent
-**Python · FastAPI · Next.js · LiteLLM · MapLibre · scipy · scikit-image · 154 tests**
-
-Real hydrogeology, not a dashboard with cosmetic icons. Interference lines computed from the Theis equation, depression cones via marching-squares contour extraction, an agent loop calling 7 MCP-style tools to answer professional questions with structured output cards. The gold-standard README that anchors the rest of the portfolio.
-
 ### [mnemo-showcase](https://github.com/CreatmanCEO/mnemo-showcase) — Personal event graph with semantic recall for AI agents
 **Python · FastAPI · pgvector · bge-m3 · MCP · 135 tests**
 
@@ -137,7 +132,14 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 
 ## 🔬 Deep dives
 
-Detailed case studies with architecture diagrams, design decisions, and impact metrics — coming soon in `case-studies/`.
+Architecture decisions, domain expertise, and impact metrics — projects where the story matters as much as the code.
+
+### [hydrowatch](https://github.com/CreatmanCEO/hydrowatch) — Groundwater monitoring with an LLM agent
+**Python · FastAPI · Next.js · LiteLLM · MapLibre · scipy · scikit-image · 154 tests**
+
+Real hydrogeology, not a dashboard with cosmetic icons. Theis equation interference lines, marching-squares depression cones, an agent loop calling 7 MCP-style tools. Where 17 years of field geology meets software engineering.
+
+More case studies coming in `case-studies/`.
 
 ---
 
@@ -191,7 +193,6 @@ Detailed case studies with architecture diagrams, design decisions, and impact m
 
 ### 🌍 Open-source
 
-- **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста
 - **[mnemo-showcase](https://github.com/CreatmanCEO/mnemo-showcase)** — граф событий с семантическим поиском для AI-агентов · 14K событий · pgvector · bge-m3 · 135 тестов · 5 спринтов за 12 дней
 - **[rotator-showcase](https://github.com/CreatmanCEO/rotator-showcase)** — голосовой co-pilot + MCP-периферия для Claude Code · bounded loops · citation-grounded recall · eval-driven skill learning
 - **[cc-janitor](https://github.com/CreatmanCEO/cc-janitor)** — TUI/CLI для гигиены среды Claude Code · Phase 1 MVP в активной разработке
@@ -216,6 +217,12 @@ Detailed case studies with architecture diagrams, design decisions, and impact m
 
 - **[diabot](https://github.com/CreatmanCEO/diabot)** — для близких с диабетом 1 типа · PolyForm Noncommercial · *своё решаю, потом отдаю*
 - **Ещё:** `portfolio` (creatman.site) · `smart-link-collector` · `work-assistant` *(private)* · `vpn-key-bot` *(private)*
+
+### 🔬 Deep dives
+
+- **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста · 17 лет полевой геологии → software engineering
+
+Больше case studies в `case-studies/`.
 
 ### 📫 Открыт к
 
