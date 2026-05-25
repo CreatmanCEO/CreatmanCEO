@@ -43,6 +43,11 @@ Real hydrogeology, not a dashboard with cosmetic icons. Interference lines compu
 
 Agent runtime with bounded loops, citation-grounded recall, eval-driven skill learning. The brain that orchestrates memory, voice, and tools.
 
+### [cc-janitor](https://github.com/CreatmanCEO/cc-janitor) — Tidy up your Claude Code environment
+**Python · Textual TUI · Typer · tiktoken · MIT**
+
+*Phase 1 MVP — in active development.* Sessions, permissions, context, hooks. The chores no one else automates, in one tool.
+
 ### [claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup) — Stop Claude Code from breaking your projects ⭐11
 **Python · Bash · Claude Code · MCP · Subagents · Hooks**
 
@@ -67,11 +72,6 @@ Featured in the [Graphify v5.0 roadmap](https://github.com/safishamsi/graphify/i
 **Python · Bash · MCP · NotebookLM**
 
 41K-message Telegram production test (12 topics, 586K words, 13 NotebookLM sources, under 2 minutes). Turns multi-step NotebookLM operations into one-liners.
-
-### 🔨 [cc-janitor](https://github.com/CreatmanCEO/cc-janitor) — Tidy up your Claude Code environment
-**Python · Textual TUI · Typer · tiktoken · MIT**
-
-*Phase 1 MVP — in active development.* Sessions, permissions, context, hooks. The chores no one else automates, in one tool.
 
 ---
 
@@ -194,12 +194,12 @@ Detailed case studies with architecture diagrams, design decisions, and impact m
 - **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста
 - **[mnemo-showcase](https://github.com/CreatmanCEO/mnemo-showcase)** — граф событий с семантическим поиском для AI-агентов · 14K событий · pgvector · bge-m3 · 135 тестов · 5 спринтов за 12 дней
 - **[rotator-showcase](https://github.com/CreatmanCEO/rotator-showcase)** — голосовой co-pilot + MCP-периферия для Claude Code · bounded loops · citation-grounded recall · eval-driven skill learning
+- **[cc-janitor](https://github.com/CreatmanCEO/cc-janitor)** — TUI/CLI для гигиены среды Claude Code · Phase 1 MVP в активной разработке
 - **[claude-code-antiregression-setup](https://github.com/CreatmanCEO/claude-code-antiregression-setup)** ⭐11 — [Habr топ-5 дня · 20K чтений](https://habr.com/ru/articles/1013330/)
 - **[webtest-orch](https://github.com/CreatmanCEO/webtest-orch)** — token-efficient e2e orchestration · CI matrix · 113 тестов
 - **[claude-statusline](https://github.com/CreatmanCEO/claude-statusline)** ⭐5 — [Habr · 9.3K чтений](https://habr.com/ru/articles/1013414/)
 - **[ai-context-hierarchy](https://github.com/CreatmanCEO/ai-context-hierarchy)** ⭐3 — [в roadmap Graphify v5.0](https://github.com/safishamsi/graphify/issues/425)
 - **[notebooklm-claude-workflows](https://github.com/CreatmanCEO/notebooklm-claude-workflows)** ⭐3 — 7 slash-команд · продакшн-тест на 41K сообщений Telegram
-- **🔨 [cc-janitor](https://github.com/CreatmanCEO/cc-janitor)** — TUI/CLI для гигиены среды Claude Code · Phase 1 MVP в активной разработке
 
 ### 💼 Commercial
 
