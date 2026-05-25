@@ -132,14 +132,17 @@ For friends and family. Food photo → AI carb counting → bread units → diar
 
 ## 🔬 Deep dives
 
-Architecture decisions, domain expertise, and impact metrics — projects where the story matters as much as the code.
+Architecture decisions, domain expertise, and impact metrics.
 
-### [hydrowatch](https://github.com/CreatmanCEO/hydrowatch) — Groundwater monitoring with an LLM agent
-**Python · FastAPI · Next.js · LiteLLM · MapLibre · scipy · scikit-image · 154 tests**
-
-Real hydrogeology, not a dashboard with cosmetic icons. Theis equation interference lines, marching-squares depression cones, an agent loop calling 7 MCP-style tools. Where 17 years of field geology meets software engineering.
-
-More case studies coming in `case-studies/`.
+| Project | Story |
+|---------|-------|
+| [MNEMO](case-studies/mnemo.md) | AI agent amnesia → 15K-event semantic memory in 12 days |
+| [Rotator](case-studies/rotator.md) | "Claude Code IS the agent" — the pivot that simplified everything |
+| [Security Scanner](case-studies/security-scanner.md) | Friend's hacked phone → VPN-based mobile threat detection |
+| [GHOST](case-studies/ghost.md) | Invisible AI overlay via Win32 WDA_EXCLUDEFROMCAPTURE |
+| [DiaBot](case-studies/diabot.md) | Sibling with T1 diabetes → photo-based carb counting bot |
+| [Lingua Companion](case-studies/lingua-companion.md) | Voice-first English tutor with RU/EN code-switching |
+| [HydroWatch](case-studies/hydrowatch.md) | 17 years of field geology → LLM-powered monitoring |
 
 ---
 
@@ -220,9 +223,17 @@ More case studies coming in `case-studies/`.
 
 ### 🔬 Deep dives
 
-- **[hydrowatch](https://github.com/CreatmanCEO/hydrowatch)** — мониторинг подземных вод с LLM-агентом · уравнение Theis · 7 MCP-style tools · 154 теста · 17 лет полевой геологии → software engineering
+Архитектурные решения, доменная экспертиза и метрики.
 
-Больше case studies в `case-studies/`.
+| Проект | История |
+|--------|---------|
+| [MNEMO](case-studies/mnemo.md) | Амнезия AI-агентов → 15K событий семантической памяти за 12 дней |
+| [Rotator](case-studies/rotator.md) | «Claude Code IS the agent» — инверсия, которая упростила всё |
+| [Security Scanner](case-studies/security-scanner.md) | Взломанный телефон друга → детектор мобильных угроз через VPN |
+| [GHOST](case-studies/ghost.md) | Невидимый AI-оверлей через Win32 WDA_EXCLUDEFROMCAPTURE |
+| [DiaBot](case-studies/diabot.md) | Близкий с диабетом 1 типа → подсчёт углеводов по фото |
+| [Lingua Companion](case-studies/lingua-companion.md) | Voice-first English-тьютор с поддержкой RU/EN переключения |
+| [HydroWatch](case-studies/hydrowatch.md) | 17 лет полевой геологии → мониторинг с LLM-агентом |
 
 ### 📫 Открыт к
 
